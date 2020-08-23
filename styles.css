@@ -69,6 +69,10 @@ img {
   background-color: #f72210;
 }
 
+.red-color {
+  color: #f72210;
+}
+
 .fixed {
   position: fixed;
   overflow: hidden;
@@ -199,18 +203,14 @@ h1.brand {
 .subs-info-title {
   position: absolute;
   top: -40%;
-  transform: translate(0, -40%);
+  transform: translate(0%, -40%);
 }
-
-/* .banner-frame-1 img {
-  max-width: 100%;
-  height: auto;
-} */
 
 .subs-img-2 {
   position: absolute;
   top: 10px;
   left: 75px;
+  transform: translate(-20px, 0);
 }
 
 /* == Footer == */
