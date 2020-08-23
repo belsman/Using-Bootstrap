@@ -18,7 +18,7 @@
                     <li class="top-header-left-item d-none d-lg-block">
                         <ul class="left-items-items">
                             <li><a href="#"><i class='fas fa-cloud-sun'></i> 25 deg Lagos, NG <i class='fas fa-angle-right'></i></a></li>
-                            <li id="todays-date">Tue, Aug 18, 2020</li>
+                            <li id="todays-date"></li>
                         </ul>
                     </li>
                     <li class="top-header-middle-item">
@@ -1971,6 +1971,8 @@
                 stickyNav.classList.add("d-none");
             }
         }
+
+        document.getElementById("todays-date").innerText = (new Date()).toDateString();
     </script>
 </body>
 
