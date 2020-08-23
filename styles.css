@@ -306,8 +306,12 @@ h1.brand {
     padding: 0 1.5rem;
   }
 
-  .survery-container {
-    width: 100%;
+  .subs-img-1 {
+    transform: translate(-18px, 0);
+  }
+
+  .subs-img-2 {
+    transform: translate(-35px, 0);
   }
 }
 
