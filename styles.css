@@ -49,14 +49,6 @@ img {
   font-weight: 600;
 }
 
-.red-color {
-  color: #f72210;
-}
-
-.red-bg {
-  background-color: #f72210;
-}
-
 .blue-color {
   color: #3581f4;
 }
@@ -71,6 +63,10 @@ img {
 
 .gray-color {
   background-color: #e8e8e8;
+}
+
+.red-bg {
+  background-color: #f72210;
 }
 
 .fixed {
@@ -206,10 +202,10 @@ h1.brand {
   transform: translate(0, -40%);
 }
 
-.banner-frame-1 img {
+/* .banner-frame-1 img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .subs-img-2 {
   position: absolute;

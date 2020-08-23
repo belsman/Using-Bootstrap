@@ -9,7 +9,7 @@ A CSS framework that ease the building of webpage. The layout of the page was ac
 
 ## Live demo
 
-🔗 [Newsweek Website Clone](https://rawcdn.githack.com/belsman/Using-Bootstrap/c0c17ae6de4f057a266ab98aa78705c92bcfa1a7/index.html)
+🔗 [Newsweek Website Clone](https://lucid-sammet-605d57.netlify.app/)
 
 ## Built With
 
@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Webbrowser and access to internet
+Web browser and access to internet
 
 ### Install
 
