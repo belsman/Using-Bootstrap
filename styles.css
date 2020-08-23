@@ -206,6 +206,10 @@ h1.brand {
   transform: translate(0%, -40%);
 }
 
+.subs-img-1 {
+  transform: translate(-20px, 0);
+}
+
 .subs-img-2 {
   position: absolute;
   top: 10px;
