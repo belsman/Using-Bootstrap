@@ -667,8 +667,9 @@
                             </div>
                         </section>
         
-                        <section class="survey-right px-2 py-3 my-3 navbar w-100 white-bg">
-                            <div class="survery-container w-100 mx-auto">
+                        <section class="survey-right row px-2 py-3 my-3 navbar w-100 white-bg">
+                            <div class="col-md"></div>
+                            <div class="survery-container col-md-5 col-lg-12">
                                 <div class="news-card card">
                                     <div class="news-image-frame">
                                         <a href="#"><img class="img-fluid" src="https://d.newsweek.com/en/full/1617158/brandspark.png?w=500&h=333&f=50fc6ab9843ed86120b0dce671726563" alt="IMAGE"></a>
@@ -762,6 +763,7 @@
                                     </article>
                                 </div>
                             </div>
+                            <div class="col-md"></div>
                         </section>
                     </div>
             </div>
@@ -1956,10 +1958,11 @@
         crossorigin="anonymous"></script>
 
     <script>
+        let scrollSize = 100;
         window.onscroll = function() {myFunction()};
 
         function myFunction() {
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            if (document.body.scrollTop >scrollSize || document.documentElement.scrollTop > scrollSize) {
                 let stickyNav = document.getElementById("stickyNav"),
                   navHeader = document.getElementById("navHeader");
                 navHeader.classList.add("d-lg-none");
