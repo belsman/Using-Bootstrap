@@ -29,6 +29,15 @@ img {
   background-color: transparent;
 }
 
+.main-content {
+  background-color: #fff;
+}
+
+.main-body-section {
+  background-color: #e8e8e8;
+}
+
+.small-svg,
 .brand-svg {
   fill: #fff;
   width: 132px;
@@ -56,6 +65,20 @@ img {
   background-color: #c2d4d7;
 }
 
+.white-bg {
+  background-color: #fff;
+}
+
+.gray-color {
+  background-color: #e8e8e8;
+}
+
+.fixed {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+
 /* == Misc == */
 .double-border,
 .vs-badge {
@@ -75,7 +98,6 @@ img.media-size {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #f72210;
   width: 29px;
   height: 28px;
 }
@@ -97,15 +119,13 @@ img.media-size {
 header {
   font-size: 13px;
   max-width: 100vw;
-  background-color: #fff;
 }
 
 .top-header-nav {
   padding: 0.5rem 1rem 0.7rem;
-  background-color: #f72210;
-  color: #fff;
 }
 
+.sticky-nav-bar button,
 .top-header-right-item button {
   margin-left: 0.5rem;
   border: none;
@@ -130,12 +150,15 @@ h1.brand {
   font-size: 18px;
 }
 
-/* == featured-stories == */
-main,
-section {
-  background-color: #fff;
+/* === sticky-nav-bar === */
+.sticky-nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
 }
 
+/* == featured-stories == */
 .news-image-frame {
   position: relative;
 }
@@ -175,7 +198,6 @@ section {
 
 .subscribe-content {
   position: relative;
-  background-color: #e8e8e8;
 }
 
 .subs-info-title {
@@ -191,16 +213,11 @@ section {
 
 .subs-img-2 {
   position: absolute;
-  width: 100%;
   top: 10px;
   left: 75px;
 }
 
 /* == Footer == */
-footer {
-  background-color: #fff;
-}
-
 .footer-log,
 .footer-svg {
   display: block;
@@ -215,7 +232,7 @@ footer {
 
 /* === Media for Small devices === */
 @media screen and (min-width: 768px) {
-  .content {
+  .main-body-section {
     background-color: #fff;
   }
 
@@ -243,10 +260,6 @@ footer {
 
 /* === Media for Medium devices === */
 @media screen and (min-width: 992px) {
-  img {
-    max-width: 100%;
-  }
-
   /* == Header == */
   .brand-svg {
     width: 396px;
