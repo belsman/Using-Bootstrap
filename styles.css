@@ -309,7 +309,7 @@ h1.brand {
 /* === Media for Large devices === */
 @media screen and (min-width: 1200px) {
   header,
-  .middle-header-nav  {
+  .middle-header-nav {
     font-size: 17px;
   }
 
@@ -320,7 +320,7 @@ h1.brand {
   button.subscribe {
     font-size: 18px;
   }
-  
+
   .middle-header-nav li {
     padding: 0 1rem;
   }
