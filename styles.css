@@ -3,6 +3,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-size: 13px;
   margin: 0;
   padding: 0;
@@ -10,7 +11,6 @@ body {
 
 .main-content {
   background-color: #f4f5f6;
-  overflow-x: hidden;
 }
 
 ul {
@@ -157,10 +157,6 @@ h1.brand {
 }
 
 /* == featured-stories == */
-.news-image-frame {
-  position: relative;
-}
-
 .news-category {
   position: absolute;
   bottom: 0;
@@ -190,6 +186,8 @@ h1.brand {
 }
 
 /* == Subscribe section == */
+.middle-header-nav,
+.news-image-frame,
 .subscribe-content,
 .banner-frame-1 {
   position: relative;
@@ -210,6 +208,7 @@ h1.brand {
   top: 10px;
   left: 75px;
   transform: translate(-20px, 0);
+  height: 100%;
 }
 
 /* == Footer == */
@@ -262,10 +261,6 @@ h1.brand {
   }
 
   /* -- middle-header-nav -- */
-  .middle-header-nav {
-    position: relative;
-  }
-
   .middle-header-nav::before {
     position: absolute;
     top: 0;
