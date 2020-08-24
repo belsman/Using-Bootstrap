@@ -9,7 +9,7 @@ A CSS framework that ease the building of webpage. The layout of the page was ac
 
 ## Live demo
 
-🔗 [Newsweek Website Clone](https://rawcdn.githack.com/belsman/Using-Bootstrap/402dfa28917c8fc9b5a6919ab049069316028374/index.html)
+🔗 [Newsweek Website Clone](https://rawcdn.githack.com/belsman/Using-Bootstrap/8aba5d9d79f6efb2f4259d20106a818b7461ab6b/index.html)
 
 ## Built With
 
