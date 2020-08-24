@@ -4,7 +4,12 @@
 
 body {
   font-size: 13px;
-  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  background-color: #f4f5f6;
 }
 
 ul {
@@ -27,14 +32,6 @@ img {
   outline: none;
   border: none;
   background-color: transparent;
-}
-
-.main-content {
-  background-color: #fff;
-}
-
-.main-body-section {
-  background-color: #e8e8e8;
 }
 
 .small-svg,
@@ -61,8 +58,8 @@ img {
   background-color: #fff;
 }
 
-.gray-color {
-  background-color: #e8e8e8;
+.gray-bg {
+  background-color: #f4f5f6;
 }
 
 .red-bg {
@@ -232,14 +229,10 @@ h1.brand {
 
 /* === Media for Small devices === */
 @media screen and (min-width: 768px) {
-  .main-body-section {
+  .main-content {
     background-color: #fff;
   }
-
-  .survery-container {
-    width: 50%;
-  }
-
+  
   .news-letter-bg-img {
     background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
     background-repeat: no-repeat;
