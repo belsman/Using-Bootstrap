@@ -190,11 +190,8 @@ h1.brand {
 }
 
 /* == Subscribe section == */
+.subscribe-content,
 .banner-frame-1 {
-  position: relative;
-}
-
-.subscribe-content {
   position: relative;
 }
 
@@ -311,7 +308,8 @@ h1.brand {
 
 /* === Media for Large devices === */
 @media screen and (min-width: 1200px) {
-  header {
+  header,
+  .middle-header-nav  {
     font-size: 17px;
   }
 
@@ -322,11 +320,7 @@ h1.brand {
   button.subscribe {
     font-size: 18px;
   }
-
-  .middle-header-nav {
-    font-size: 17px;
-  }
-
+  
   .middle-header-nav li {
     padding: 0 1rem;
   }
